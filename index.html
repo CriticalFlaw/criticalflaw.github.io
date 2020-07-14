@@ -1,0 +1,389 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CriticalFlaw</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://avatars1.githubusercontent.com/u/6818236?v=4" type="image/png"></head>
+
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="profile">
+      <div id="profile_img" style="background: url(https://avatars1.githubusercontent.com/u/6818236?v=4) center;"></div>
+      <div id="username"><span style="display:block;">Igor Nikitin</span><a href="https://github.com/CriticalFlaw">@CriticalFlaw</a></div>
+      <div id="userbio" style="display: block;">Software Developer (allegedly) 🚰</div>
+      <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-link"></i> &nbsp; <a href=""></a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Ontario, Canada</span>
+                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+                <div class="socials">
+                <span style="display:block;"><a href="https://www.twitter.com/criticalflaw" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/null" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.linkedin.com/in/null/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.medium.com/@null/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                </div>
+                </div>
+    </div>
+    <div id="display">
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/CriticalFlaw/Maple-Morphs" target="_blank">
+                        <section>
+                            <div class="section_title">Maple-Morphs</div>
+                            <div class="about_section">
+                            <span style="display:block;">Website for Ball Python enthusiasts. </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/awesome-tf2" target="_blank">
+                        <section>
+                            <div class="section_title">awesome-tf2</div>
+                            <div class="about_section">
+                            <span style="display:block;">A curated list of Team Fortress 2 resources, tools and more.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 5</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 3</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/FlawBOT.Twitch" target="_blank">
+                        <section>
+                            <div class="section_title">FlawBOT.Twitch</div>
+                            <div class="about_section">
+                            <span style="display:block;">Multipurpose Twitch bot written in C# using TwitchLib</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/TeufortTrail" target="_blank">
+                        <section>
+                            <div class="section_title">TeufortTrail</div>
+                            <div class="about_section">
+                            <span style="display:block;">Clone of the 90s Oregon Trail game set in the world of Team Fortress 2</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/CatFeeder.py" target="_blank">
+                        <section>
+                            <div class="section_title">CatFeeder.py</div>
+                            <div class="about_section">
+                            <span style="display:block;">Script for using a Raspberry Pi as a automated cat feeder</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/Pincubator.py" target="_blank">
+                        <section>
+                            <div class="section_title">Pincubator.py</div>
+                            <div class="about_section">
+                            <span style="display:block;">Script for using a Raspberry Pi as an incubator</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/RPi-Projects" target="_blank">
+                        <section>
+                            <div class="section_title">RPi-Projects</div>
+                            <div class="about_section">
+                            <span style="display:block;">Scripts for various projects that use the Raspberry Pi</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/teamfortressTVHUD" target="_blank">
+                        <section>
+                            <div class="section_title">teamfortressTVHUD</div>
+                            <div class="about_section">
+                            <span style="display:block;">TeamFortress.TV Spectator HUD, compatible with CastingEssentials</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/FlawBOT" target="_blank">
+                        <section>
+                            <div class="section_title">FlawBOT</div>
+                            <div class="about_section">
+                            <span style="display:block;">Multipurpose Discord bot written in C# using DSharpPlus</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 4</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 2</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/TeamworkTF.Sharp" target="_blank">
+                        <section>
+                            <div class="section_title">TeamworkTF.Sharp</div>
+                            <div class="about_section">
+                            <span style="display:block;">C# API wrapper for calling the teamwork.tf API</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/FlawHUD.HorizonTV" target="_blank">
+                        <section>
+                            <div class="section_title">FlawHUD.HorizonTV</div>
+                            <div class="about_section">
+                            <span style="display:block;">Modified FlawHUD for HorizonTV</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Batchfile</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/essentialsHUD" target="_blank">
+                        <section>
+                            <div class="section_title">essentialsHUD</div>
+                            <div class="about_section">
+                            <span style="display:block;">Spectator HUD developed for EssentialsTF</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Batchfile</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/rayshud-Installer" target="_blank">
+                        <section>
+                            <div class="section_title">rayshud-Installer</div>
+                            <div class="about_section">
+                            <span style="display:block;">An application for installing, updating and customizing rayshud</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 5</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/raysfire/rayshud" target="_blank">
+                        <section>
+                            <div class="section_title">rayshud</div>
+                            <div class="about_section">
+                            <span style="display:block;">A simplistic yet bold HUD for TF2 made to cut out a lot of clutter included that of the stock hud. It includes both a 6s and 16v16 scoreboard that can be toggled by changing to and from the minimal mode. This HUD was made for myself, but I've been getting requests for it a lot lately, so I figured I'd upload what I've done so far for the general public to use.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 223</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 115</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/FlawHUD.Installer" target="_blank">
+                        <section>
+                            <div class="section_title">FlawHUD.Installer</div>
+                            <div class="about_section">
+                            <span style="display:block;">An application for installing, updating and customizing FlawHUD</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/TF2-BaseHUD" target="_blank">
+                        <section>
+                            <div class="section_title">TF2-BaseHUD</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/TF2-HUD-Fix" target="_blank">
+                        <section>
+                            <div class="section_title">TF2-HUD-Fix</div>
+                            <div class="about_section">
+                            <span style="display:block;">A compilation of bug fixes and minor tweaks to the default Team Fortress 2 HUD.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 10</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 2</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/FlawHUD" target="_blank">
+                        <section>
+                            <div class="section_title">FlawHUD</div>
+                            <div class="about_section">
+                            <span style="display:block;">Custom HUD for Team Fortress 2</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 36</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 7</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/TF2-ParticleConverter" target="_blank">
+                        <section>
+                            <div class="section_title">TF2-ParticleConverter</div>
+                            <div class="about_section">
+                            <span style="display:block;">A tool for converting multiple PNGs files to a VTF for the purposes of creating particles.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/Civ5.ModTool" target="_blank">
+                        <section>
+                            <div class="section_title">Civ5.ModTool</div>
+                            <div class="about_section">
+                            <span style="display:block;">A tool for generating XML files that can be used to mod a custom civilization into Sid Meier's Civilization V.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/CriticalFlaw/Civ5.TF2Mod" target="_blank">
+                        <section>
+                            <div class="section_title">Civ5.TF2Mod</div>
+                            <div class="about_section">
+                            <span style="display:block;">This mod adds Mann Co. under Saxton Hale as a playable civilization.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a></div>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+
+</body></html>
