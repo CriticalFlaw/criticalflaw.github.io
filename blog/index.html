@@ -18,33 +18,11 @@
 		<div id="profile_img" style="background: url(https://avatars1.githubusercontent.com/u/6818236?v=4) center;"></div>
 		<div id="username"><span style="display:block;">Igor</span><a href="https://github.com/CriticalFlaw">@CriticalFlaw</a></div>
 		<div id="about">
+			<span style="display:block;"><i class="fas fa-wrench"></i> &nbsp;&nbsp; <a href="http://www.criticalflaw.ca">Projects</a></span>
 			<span style="display:block;"><i class="fas fa-envelope"></i> &nbsp;&nbsp; <a href="mailto:inikitin1@outlook.com">Contact Me</a></span>
 			<span style="display:block;"><i class="fas fa-link"></i> &nbsp;&nbsp; <a href="https://www.twitter.com/criticalflaw">Twitter</a></span>
 			<span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Ontario, Canada</span>
 			<span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
-			<div id="skills">
-				<h4>Skills:</h4>
-				<div class="row">
-					<div class="col">
-						<ul>
-							<li>C#</li>
-							<li>Python</li>
-							<li>Oracle SQL</li>
-							<li>NUnit, MSTest</li>
-							<li>HTML & CSS</li>
-							<li>Mendix</li>
-							<li>Documentation</li>
-							<li>.NET Core/Framework</li>
-							<li>Java</li>
-							<li>MySQL</li>
-							<li>GUI Design</li>
-							<li>Photoshop</li>
-							<li>API Calls</li>
-							<li>Agile/Scrum Methodologies</li>
-						</ul> 
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 	<div id="display">
@@ -52,8 +30,8 @@
 			<h1>Blog.</h1>
 			<div id="blogs"></div>
 		</div>
-		<div id="footer">
-			<a href="www.criticalflaw.ca" target="_blank">Back to the main page.</a>
+		<div id="footer" style="display:none" >
+			<a href="http://www.criticalflaw.ca" target="_blank">Back to the main page.</a>
 		</div>
 	</div>
 	<script type="text/javascript">
@@ -74,9 +52,8 @@
         }
         for (var i = 0; i < blog.length; i++) {
           $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
+            <a href="./${blog[i].url_title}/" target="_blank">
                 <section>
-                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
                     <div class="blog_container">
                         <div class="section_title">${blog[i].title}</div>
                         <div class="about_section">
