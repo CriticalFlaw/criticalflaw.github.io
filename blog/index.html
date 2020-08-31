@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CriticalFlaw</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://i.imgur.com/Upw9f10.png" type="image/png"></head>
+
+  <body>
+	<div id="loading">
+		<div id="spinner"></div>
+	</div>
+	<div id="profile">
+		<div id="profile_img" style="background: url(https://avatars1.githubusercontent.com/u/6818236?v=4) center;"></div>
+		<div id="username"><span style="display:block;">Igor</span><a href="https://github.com/CriticalFlaw">@CriticalFlaw</a></div>
+		<div id="about">
+			<span style="display:block;"><i class="fas fa-envelope"></i> &nbsp;&nbsp; <a href="mailto:inikitin1@outlook.com">Contact Me</a></span>
+			<span style="display:block;"><i class="fas fa-link"></i> &nbsp;&nbsp; <a href="https://www.twitter.com/criticalflaw">Twitter</a></span>
+			<span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Ontario, Canada</span>
+			<span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+			<div id="skills">
+				<h4>Skills:</h4>
+				<div class="row">
+					<div class="col">
+						<ul>
+							<li>C#</li>
+							<li>Python</li>
+							<li>Oracle SQL</li>
+							<li>NUnit, MSTest</li>
+							<li>HTML & CSS</li>
+							<li>Mendix</li>
+							<li>Documentation</li>
+							<li>.NET Core/Framework</li>
+							<li>Java</li>
+							<li>MySQL</li>
+							<li>GUI Design</li>
+							<li>Photoshop</li>
+							<li>API Calls</li>
+							<li>Agile/Scrum Methodologies</li>
+						</ul> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="display">
+		<div id="blog_section">
+			<h1>Blog.</h1>
+			<div id="blogs"></div>
+		</div>
+		<div id="footer">
+			<a href="www.criticalflaw.ca" target="_blank">Back to the main page.</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
+	
+	<script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  </body>
+</html>
