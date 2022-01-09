@@ -11,8 +11,6 @@ theme:
         - scheme: slate
           primary: teal
           accent: teal
-    font:
-          text: Oswald
 repo_name: GitHub
 site_url: https://www.criticalflaw.ca/
 repo_url: https://github.com/CriticalFlaw/criticalflaw.github.io
