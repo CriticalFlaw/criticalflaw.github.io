@@ -3,8 +3,8 @@ site_author: criticalflaw
 theme:
     language: en
     name: material
-    logo: logo.png
-    favicon: logo.png
+    logo: favicon.ico
+    favicon: favicon.ico
     features:
         - navigation.expand
     palette:
