@@ -1,0 +1,51 @@
+site_name: CriticalFlaw.ca
+site_author: criticalflaw
+theme:
+    language: en
+    name: material
+    logo: logo.png
+    favicon: logo.png
+    features:
+        - navigation.expand
+    palette:
+        - scheme: default
+          primary: indigo
+          accent: amber
+          toggle:
+            icon: material/toggle-switch-off-outline
+            name: Switch to dark mode
+        - scheme: slate
+          primary: amber
+          accent: orange
+          toggle:
+            icon: material/toggle-switch
+            name: Switch to light mode
+repo_name: GitHub
+site_url: https://www.criticalflaw.ca/
+repo_url: https://github.com/CriticalFlaw/criticalflaw.github.io
+nav:
+    - Home: 'index.md'
+    - HUD Editing:
+        - Introduction: 'json/intro.md'
+hide:
+    - toc
+google_analytics:
+    - G-Q532RTS1WC
+    - auto
+markdown_extensions:
+    - admonition
+    - pymdownx.superfences
+    - toc:
+        toc_depth: 0
+plugins:
+    - search
+    - git-revision-date-localized:
+        type: date
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/CriticalFlaw/criticalflaw.github.io
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/CriticalFlaw_
+        - icon: fontawesome/brands/discord
+          link: https://discord.gg/hTdtK9vBhE
