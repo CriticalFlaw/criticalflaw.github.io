@@ -21,7 +21,6 @@ theme:
         - content.tabs.link
         - search.suggest
         - search.highlight
-        - search.share
     palette:
         - scheme: slate
           primary: teal
@@ -32,6 +31,8 @@ nav:
     - Home: 'index.md'
     - HUD Editing:
         - Introduction: 'json/intro.md'
+    - HUD Editor: 'https://www.editor.criticalflaw.ca/'
+    - FlawBOT: 'https://www.flawbot.criticalflaw.ca/'
 hide:
     - toc
 google_analytics:
