@@ -1,18 +1,32 @@
-site_name: CriticalFlaw.ca
+site_name: criticalflaw: the website
 site_author: criticalflaw
+site_url: 'https://www.criticalflaw.ca/'
+site_description: Personal website and project documentations.
 theme:
     language: en
     name: material
     logo: favicon.ico
     favicon: favicon.ico
     features:
+        - navigation.sections
+        - navigation.top
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.sections
         - navigation.expand
+        - navigation.indexes
+        - navigation.tracking
+        - toc.integrate
+        - header.autohide
+        - content.tabs.link
+        - search.suggest
+        - search.highlight
+        - search.share
     palette:
         - scheme: slate
           primary: teal
           accent: teal
 repo_name: GitHub
-site_url: https://www.criticalflaw.ca/
 repo_url: https://github.com/CriticalFlaw/criticalflaw.github.io
 nav:
     - Home: 'index.md'
