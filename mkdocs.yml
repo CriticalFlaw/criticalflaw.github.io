@@ -8,18 +8,11 @@ theme:
     features:
         - navigation.expand
     palette:
-        - scheme: default
-          primary: indigo
-          accent: amber
-          toggle:
-            icon: material/toggle-switch-off-outline
-            name: Switch to dark mode
         - scheme: slate
-          primary: amber
-          accent: orange
-          toggle:
-            icon: material/toggle-switch
-            name: Switch to light mode
+          primary: teal
+          accent: teal
+    font:
+          text: Oswald
 repo_name: GitHub
 site_url: https://www.criticalflaw.ca/
 repo_url: https://github.com/CriticalFlaw/criticalflaw.github.io
