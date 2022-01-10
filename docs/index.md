@@ -5,9 +5,6 @@
     display: none;
   }
 </style>
-This is my personal website, here you can find here most of the projects and articles I've worked on in my spare time.
-<hr/>
-
 ## Articles
 * [HUD Editing Guide](https://criticalflaw.github.io/hud-guide/intro/) - Brief guide on how to set up for editing a TF2 HUD.
 
