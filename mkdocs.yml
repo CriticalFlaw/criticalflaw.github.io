@@ -30,7 +30,7 @@ repo_url: https://github.com/CriticalFlaw/criticalflaw.github.io
 nav:
     - Home: 'index.md'
     - HUD Editing:
-        - Introduction: 'json/intro.md'
+        - Setup: 'setup.md'
     - HUD Editor: 'https://www.editor.criticalflaw.ca/'
     - FlawBOT: 'https://www.flawbot.criticalflaw.ca/'
 hide:
