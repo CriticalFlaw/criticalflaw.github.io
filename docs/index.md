@@ -4,6 +4,9 @@
   .md-content__button {
     display: none;
   }
+  .md-sidebar--secondary {
+    display: none;
+  }
 </style>
 ## Articles
 * [HUD Editing Guide](https://criticalflaw.github.io/hud-guide/intro/) - Brief guide on how to set up for editing a TF2 HUD.
