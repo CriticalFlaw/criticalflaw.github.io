@@ -5,15 +5,19 @@
     display: none;
   }
 </style>
+![image](https://user-images.githubusercontent.com/6818236/148708484-394a78ac-6e75-43c1-bfcf-c708c5ca8745.png)
 <p align="center">
   <p align="center">
     This is my personal website, here you can find here most of the projects and articles I've worked on in my spare time.
     <br />
+    Social Media Links: 
     <a href="https://github.com/CriticalFlaw?tab=repositories">GitHub</a>
     ·
     <a href="https://twitter.com/CriticalFlaw_">Twitter</a>
     ·
     <a href="https://discord.gg/hTdtK9vBhE">Discord</a>
+    ·
+    <a href="mailto:nik_101@live.co.uk">Email</a>
     ·
     <a href="https://github.com/sponsors/CriticalFlaw">Sponsor</a>
   </p>
