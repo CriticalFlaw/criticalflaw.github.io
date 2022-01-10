@@ -1,3 +1,11 @@
+<!-- HIDE PAGE TITLE -->
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
+
 This is my personal website, here you can find here most of the projects and articles I've worked on in my spare time.
 
 ### Articles
