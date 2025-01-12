@@ -36,7 +36,6 @@ pre {
   background-color: white;
   border: 1px solid Black;
   padding-left: 2%;
-  adding-top: 1ch;
   padding-bottom: 1ch;
   overflow: scroll;
 }
@@ -48,15 +47,21 @@ div.heading {
 }
 
 @media (max-width: 500px) {
+
   /* For small screen decices */
   * {
-      font-size: 12px;
+    font-size: 12px;
   }
 }
 
 .title {
   text-decoration: none;
 }
+
+.title:hover {
+  text-decoration: underline;
+}
+
 
 mg.pixel,
 canvas.pixel {
@@ -86,10 +91,10 @@ blockquote div {
 }
 
 code {
-  /*font-size: 110%;*/
-  font-weight: bold;
+  font-weight: bolder;
+  font-style: oblique;
+  color: #252525;
   background-color: #e1e1e1;
   border-radius: 0.5ch;
-  padding-left: 0.3ch;
-  padding-right: 0.3ch;
+  padding: 0.4ch;
 }

@@ -1,33 +1,37 @@
-<html>
-    <head>
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" href="stylesheet.css">
-        <title>criticalflaw: the website</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=1.0, user-scalable=yes" />
-    </head>
-    <body>
-        <br />
-        <div style="text-align: center; display: inline-block; width: 100%;"">
-            <a href="/" style="text-decoration: none;"><b>*:･ﾟ✧ CriticalFlaw: The Website *:･ﾟ✧</b></a>
-            <br/><br/>
-            <a class="title" href="https://twitter.com/CriticalFlaw_">Twitter</a> | <a class="title" href="https://github.com/CriticalFlaw?tab=repositories">GitHub</a> | <a class="title" href="https://discord.gg/hTdtK9vBhE">Discord</a>
-        </div>
-        <br />
-        <br />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=1.0, user-scalable=yes" />
+    <title>criticalflaw: the website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div id="header"></div>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading header:', error));
+    </script>
+
+    <!-- Main Content -->
+    <main>
+        <h1>TF2 HUD Notes</h1>
         <hr />
+        ✪ 2025/01/12 - <a href="hud-notes.html">Useful Commands for HUD Editing</a><br />
         <br />
-        <h1>Projects</h1>
-        <p style="text-align: left; margin-bottom: 1ch;">
-            ✪ <a href="https://mastercomfig.com/huds/page/flawhud">FlawHUD</a> - Custom HUD for Team Fortress 2, with focus on minimalistic design and dark themed colors.<br />
-            ✪ <a href="https://criticalflaw.ca/TF2HUD.Editor">HUD Editor</a> - Desktop app for installing and customizing a selection of Team Fortress 2 HUDs.<br />
-            ✪ <a href="https://steamcommunity.com/workshop/filedetails/?id=2153598398">HUD Fixes</a> - Compilation of bug fixes and  visual improvements to the default Team Fortress 2 HUD. <br />
-            ✪ <a href="https://github.com/CriticalFlaw/essentialsHUD">EssentialsHUD</a> - Spectator HUD used by various casting organizations including EssentialsTF.<br />
-            ✪ <a href="https://criticalflaw.ca/FlawBOT">FlawBOT</a> - Discord bot written in C# using DSharpPlus.<br />
-        </p>
-        <br />
-        <hr />
         <br />
         <h1>Notes</h1>
-        ✪ 2022/01/23 - <a href="dk-bongos.html">Bongo Fortress</a> - How to play Team Fortress 2 with Donkey Kong Bongos.<br />
-    </body>
+        <hr />
+        ✪ 2022/01/23 - <a href="dk-bongos.html">PlayingTeam Fortress 2 with Donkey Kong Bongos</a><br />
+    </main>
+</body>
+
 </html>
