@@ -37,11 +37,8 @@ const config: Config = {
       'classic',
       {
         blog: {
+          routeBasePath: '/', // Serve the blog at the root URL
           showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -63,7 +60,6 @@ const config: Config = {
           src: 'img/favicon.ico',
       },
       items: [
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'dropdown',
           label: 'TF2 Projects',
@@ -76,10 +72,6 @@ const config: Config = {
             {
               href: 'https://comfig.app/huds/page/flawhud/',
               label: 'FlawHUD'
-            },
-            {
-              href: 'https://comfig.app/huds/page/rayshud/',
-              label: 'rayshud'
             },
             {
               href: 'https://comfig.app/huds/page/essentialshud/',
