@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.nav-icon {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  filter: invert(100%);
+}
+
+.nav-icon:hover {
+  filter: invert(48%) sepia(78%) saturate(580%) hue-rotate(140deg) brightness(95%) contrast(90%);
+}

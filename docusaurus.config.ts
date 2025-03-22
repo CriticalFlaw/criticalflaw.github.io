@@ -55,16 +55,54 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'CriticalFlaw',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+          src: 'img/favicon.ico',
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'dropdown',
+          label: 'TF2 Projects',
+          position: 'left',
+          items: [
+            {
+              to: '/TF2HUD.Editor',
+              label: 'TF2 HUD Editor'
+            },
+            {
+              href: 'https://comfig.app/huds/page/flawhud/',
+              label: 'FlawHUD'
+            },
+            {
+              href: 'https://comfig.app/huds/page/rayshud/',
+              label: 'rayshud'
+            },
+            {
+              href: 'https://comfig.app/huds/page/essentialshud/',
+              label: 'EssentialsHUD'
+            },
+            {
+              href: 'https://comfig.app/huds/page/hud-fixes/',
+              label: 'Community HUD Fixes'
+            }
+          ],
+        },
+        {
+          type: 'dropdown',
+          label: 'Misc.',
+          position: 'left',
+          items: [
+            {
+              to: '/FlawBOT',
+              label: 'FlawBOT'
+            },
+          ],
+        },
+        {href: 'https://twitter.com/CriticalFlaw_', html: '<img src="/img/x-twitter.svg" class="nav-icon">', position: 'right'},
+        {href: 'https://github.com/CriticalFlaw?tab=repositories', html: '<img src="/img/github.svg" class="nav-icon">', position: 'right'},
+        {href: 'https://discord.gg/hTdtK9vBhE', html: '<img src="/img/discord.svg" class="nav-icon">', position: 'right'},
       ],
     },
     prism: {
