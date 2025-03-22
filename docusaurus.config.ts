@@ -17,11 +17,9 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'criticalflaw', // Usually your GitHub org/user name.
+  organizationName: 'CriticalFlaw', // Usually your GitHub org/user name.
   projectName: 'criticalflaw.github.io', // Usually your repo name.
-
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  deploymentBranch: "gh-pages",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -35,7 +33,6 @@ const config: Config = {
     [
       'classic',
       {
-        docs: false,
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -47,6 +44,8 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        pages: false,
+        docs: false,
         theme: {
           customCss: './src/css/custom.css',
         },
