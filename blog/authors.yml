@@ -1,0 +1,9 @@
+criticalflaw:
+  name: CriticalFlaw
+  title: Thurston Quencher 
+  url: https://github.com/criticalflaw
+  image_url: https://github.com/criticalflaw.png
+  page: false
+  socials:
+    x: criticalflaw_
+    github: criticalflaw
