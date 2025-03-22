@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>CriticalFlaw Blog</title>
+        <link>https://criticalflaw.ca/blog</link>
+        <description>CriticalFlaw Blog</description>
+        <lastBuildDate>Tue, 22 Feb 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Bongo Fortress]]></title>
+            <link>https://criticalflaw.ca/blog/bongo-fortress</link>
+            <guid>https://criticalflaw.ca/blog/bongo-fortress</guid>
+            <pubDate>Tue, 22 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The DK Bongos are special controllers designed for Donkey Konga and Donkey Kong Jungle Beat. Luckily for us, they also can be used as a standard controller on the PC.]]></description>
+            <content:encoded><![CDATA[<p>The <a href="https://nintendo.fandom.com/wiki/DK_Bongo" target="_blank" rel="noopener noreferrer">DK Bongos</a> are special controllers designed for <a href="https://en.wikipedia.org/wiki/Donkey_Konga" target="_blank" rel="noopener noreferrer">Donkey Konga</a> and <a href="https://en.wikipedia.org/wiki/Donkey_Kong_Jungle_Beat" target="_blank" rel="noopener noreferrer">Donkey Kong Jungle Beat</a>. Luckily for us, they also can be used as a standard controller on the PC.</p>
+<p>For the morbidly curious, here is how to set them up:</p>
+<ol>
+<li>Plug your DK Bongos into a GameCube USB Adapter.</li>
+<li>Plug the GameCube USB Adapter into the PC.</li>
+<li>Download and launch the latest version of <a href="https://zadig.akeo.ie/" target="_blank" rel="noopener noreferrer">Zadig</a>.</li>
+<li>Select <em>Options</em> &gt; <em>List All Devices</em>.</li>
+<li>Select <em>WUP-028</em></li>
+<li>Click on <em>Install Driver</em>.</li>
+<li>Download and launch the latest version of <a href="https://joytokey.net/en/download" target="_blank" rel="noopener noreferrer">JoyToKey</a>.</li>
+<li>Under <em>Joystick 2</em>, bind Buttons 1-4 and 10 to whatever keys you want.</li>
+<li>Launch your game and have a terrible time.</li>
+</ol>
+<p>This is far from the optimal way to play games, especially Team Fortress 2.</p>
+<p>But if you insist on trying it with TF2, be sure to enter <code>+forward</code> into console.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3wVGGrws5sY"></iframe>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
