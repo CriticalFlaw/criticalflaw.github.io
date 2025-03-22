@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>CriticalFlaw Blog</title>
-        <link>https://criticalflaw.ca/blog</link>
+        <link>https://criticalflaw.ca/</link>
         <description>CriticalFlaw Blog</description>
         <lastBuildDate>Tue, 22 Feb 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Bongo Fortress]]></title>
-            <link>https://criticalflaw.ca/blog/bongo-fortress</link>
-            <guid>https://criticalflaw.ca/blog/bongo-fortress</guid>
+            <link>https://criticalflaw.ca/bongo-fortress</link>
+            <guid>https://criticalflaw.ca/bongo-fortress</guid>
             <pubDate>Tue, 22 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[The DK Bongos are special controllers designed for Donkey Konga and Donkey Kong Jungle Beat. Luckily for us, they also can be used as a standard controller on the PC.]]></description>
             <content:encoded><![CDATA[<p>The <a href="https://nintendo.fandom.com/wiki/DK_Bongo" target="_blank" rel="noopener noreferrer">DK Bongos</a> are special controllers designed for <a href="https://en.wikipedia.org/wiki/Donkey_Konga" target="_blank" rel="noopener noreferrer">Donkey Konga</a> and <a href="https://en.wikipedia.org/wiki/Donkey_Kong_Jungle_Beat" target="_blank" rel="noopener noreferrer">Donkey Kong Jungle Beat</a>. Luckily for us, they also can be used as a standard controller on the PC.</p>

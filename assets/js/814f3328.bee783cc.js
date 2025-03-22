@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcriticalflaw_website=self.webpackChunkcriticalflaw_website||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Bongo Fortress","permalink":"/bongo-fortress","unlisted":false,"date":"2022-02-22T00:00:00.000Z"}]}')}}]);
