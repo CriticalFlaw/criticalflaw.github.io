@@ -21,6 +21,9 @@ const config: Config = {
   projectName: 'criticalflaw.github.io', // Usually your repo name.
   deploymentBranch: "gh-pages",
 
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -67,7 +70,7 @@ const config: Config = {
           position: 'left',
           items: [
             {
-              to: '/TF2HUD.Editor',
+              to: 'https://criticalflaw.ca/TF2HUD.Editor/',
               label: 'TF2 HUD Editor'
             },
             {
@@ -94,7 +97,7 @@ const config: Config = {
           position: 'left',
           items: [
             {
-              to: '/FlawBOT',
+              to: 'https://criticalflaw.ca/FlawBOT/',
               label: 'FlawBOT'
             },
           ],
