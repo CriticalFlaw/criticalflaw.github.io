@@ -1,0 +1,14 @@
+Suggested Tools
+- notepad++
+   - Alternatively, use Visual Studio Code w/VDF Plugin
+- WinMerge
+- Link Shell Extension 
+- GitHub Desktop
+
+Fresh Start
+- You can use any HUD as a base for modying or creating your own witb appropriate credit. For purposes if this guide, well use yhe drfault TF2 HUD
+- Not requirex but recommended for easier management
+- Install GitHub, setup an account
+- Clone TF2 HUD and HUD fixes as base
+- Clone fixes to tf/custom or use link shell if you plan on swapping HUDs often
+- 
