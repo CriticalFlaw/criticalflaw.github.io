@@ -33,6 +33,10 @@
   width: 25px;
   height: 25px;
   vertical-align: middle;
+}
+
+/* The icons are black SVGs; only invert them on the dark navbar. */
+[data-theme='dark'] .nav-icon {
   filter: invert(100%);
 }
 

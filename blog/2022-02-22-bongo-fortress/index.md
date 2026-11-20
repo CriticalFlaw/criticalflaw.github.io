@@ -23,4 +23,4 @@ This is far from the optimal way to play games, especially Team Fortress 2.
 
 But if you insist on trying it with TF2, be sure to enter `+forward` into console.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3wVGGrws5sY"></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3wVGGrws5sY" title="Bongo Fortress" style={{maxWidth: "100%"}} allowFullScreen></iframe>

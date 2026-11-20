@@ -62,13 +62,9 @@ const config: Config = {
       items: [
         {
           type: 'dropdown',
-          label: 'TF2 Projects',
+          label: 'TF2 HUDs',
           position: 'left',
           items: [
-            {
-              to: 'https://criticalflaw.ca/TF2HUD.Editor/',
-              label: 'TF2 HUD Editor'
-            },
             {
               href: 'https://comfig.app/huds/page/flawhud/',
               label: 'FlawHUD'
@@ -84,17 +80,16 @@ const config: Config = {
           ],
         },
         {
-          type: 'dropdown',
-          label: 'Misc.',
+          to: 'https://criticalflaw.ca/TF2HUD.Editor/',
+          label: 'HUD Editor',
           position: 'left',
-          items: [
-            {
-              to: 'https://criticalflaw.ca/FlawBOT/',
-              label: 'FlawBOT'
-            },
-          ],
         },
-        {href: 'https://twitter.com/CriticalFlaw_', html: '<img src="/img/x-twitter.svg" class="nav-icon">', position: 'right'},
+        {
+          to: 'https://criticalflaw.ca/FlawBOT/',
+          label: 'FlawBOT',
+          position: 'left',
+        },
+        {href: 'https://x.com/CriticalFlaw_', html: '<img src="/img/x-twitter.svg" class="nav-icon">', position: 'right'},
         {href: 'https://github.com/CriticalFlaw?tab=repositories', html: '<img src="/img/github.svg" class="nav-icon">', position: 'right'},
         {href: 'https://discord.gg/hTdtK9vBhE', html: '<img src="/img/discord.svg" class="nav-icon">', position: 'right'},
       ],
