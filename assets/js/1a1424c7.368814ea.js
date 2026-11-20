@@ -1,0 +1,1 @@
+"use strict";(Array.isArray(globalThis.webpackChunkcriticalflaw_website)?globalThis.webpackChunkcriticalflaw_website:globalThis.webpackChunkcriticalflaw_website=[]).push([[434],{6119(a){a.exports=JSON.parse('{"metadata":{"permalink":"/","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

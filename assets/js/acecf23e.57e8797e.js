@@ -1,0 +1,1 @@
+"use strict";(Array.isArray(globalThis.webpackChunkcriticalflaw_website)?globalThis.webpackChunkcriticalflaw_website:globalThis.webpackChunkcriticalflaw_website=[]).push([[903],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/","blogTitle":"Blog","authorsListPath":"/authors"}')}}]);
